@@ -8,7 +8,7 @@ local player = game.Players.LocalPlayer
 local displayName = player.DisplayName or player.Name
 
 -- VENTANA PRINCIPAL
-local window = library:AddWindow("Toxic Paid V3 Craked By Sherya | Bienvenido " .. displayName, {
+local window = library:AddWindow("Ninja hub | WELCOME " .. displayName, {
     main_color = Color3.fromRGB(34, 56, 34),
     min_size = Vector2.new(600, 820),
     can_resize = false,
@@ -481,7 +481,7 @@ AutoFarm:AddSwitch("Anti AFK", function(state)
         uselesslabelone.Position = UDim2.new(0.3,0,0,0)
         uselesslabelone.Size = UDim2.new(0,95,0,24)
         uselesslabelone.Font = Enum.Font.SourceSans
-        uselesslabelone.Text = "Anti Afk V2 BY MVX_DeathKillerX"
+        uselesslabelone.Text = "Anti Afk Ninja hub"
         uselesslabelone.TextColor3 = Color3.fromRGB(255,255,255)
         uselesslabelone.TextSize = 14
 
@@ -3367,9 +3367,9 @@ end)
 
 
 local Credits = window:AddTab("Credits")
-
-Credits:AddLabel("MOON ATOMIC SCRIPT PRIVATE")
-Credits:AddLabel("Script Hecho por:ZENOX")
-Credits:AddLabel("Tiktok: ZENOXXIP")
-Credits:AddLabel("SC ON TOP 🔥")
-Credits:AddLabel("MOON ATOMIC TOP")
+Credits:AddLabel("tik tok:zenoxxip")
+Credits:AddLade("Ninja hub In the top🔥")
+Credits:AddLabel("thanks for use Ninja Hub")
+Credits:AddLabel("Remember, this script is only for members of the Zen community")
+Credits:AddLabel("Become a strong ninja and figth others with this script🥷")
+Credits:AddLade1("Kill all your enemies with this script☠️")
